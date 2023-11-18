@@ -266,14 +266,14 @@ public class NetworkMonitorTest {
 
     private static final int TEST_NETID = 4242;
     private static final int TEST_NETID2 = 2121;
-    private static final String TEST_HTTP_URL = "http://www.google.com/gen_204";
-    private static final String TEST_HTTP_OTHER_URL1 = "http://other1.google.com/gen_204";
-    private static final String TEST_HTTP_OTHER_URL2 = "http://other2.google.com/gen_204";
-    private static final String TEST_HTTPS_URL = "https://www.google.com/gen_204";
-    private static final String TEST_HTTPS_OTHER_URL1 = "https://other1.google.com/gen_204";
-    private static final String TEST_HTTPS_OTHER_URL2 = "https://other2.google.com/gen_204";
-    private static final String TEST_FALLBACK_URL = "http://fallback.google.com/gen_204";
-    private static final String TEST_OTHER_FALLBACK_URL = "http://otherfallback.google.com/gen_204";
+    private static final String TEST_HTTP_URL = "http://connectivitycheck.grapheneos.network/generate_204";
+    private static final String TEST_HTTP_OTHER_URL1 = "http://connectivitycheck.grapheneos.network/generate_204";
+    private static final String TEST_HTTP_OTHER_URL2 = "http://connectivitycheck.grapheneos.network/generate_204";
+    private static final String TEST_HTTPS_URL = "https://connectivitycheck.grapheneos.network/generate_204";
+    private static final String TEST_HTTPS_OTHER_URL1 = "https://connectivitycheck.grapheneos.network/generate_204";
+    private static final String TEST_HTTPS_OTHER_URL2 = "https://connectivitycheck.grapheneos.network/generate_204";
+    private static final String TEST_FALLBACK_URL = "http://grapheneos.online/gen_204";
+    private static final String TEST_OTHER_FALLBACK_URL = "http://grapheneos.online/generate_204";
     private static final String TEST_INVALID_OVERRIDE_URL = "https://override.example.com/test";
     private static final String TEST_OVERRIDE_URL = "http://localhost:12345/test";
     private static final String TEST_CAPPORT_API_URL = "https://capport.example.com/api";
